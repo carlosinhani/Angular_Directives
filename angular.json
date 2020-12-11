@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "diretivas"
+  "defaultProject": "diretivas",
+  "cli": {
+    "analytics": "a9933fcc-3347-41fe-becb-4eeede9c7f59"
+  }
 }
