@@ -1,0 +1,17 @@
+<h1>
+    <i class="glyphicon"
+    [class.glyphicon-folder-close]="!meuFavorito"
+    [class.glyphicon-folder-open]="meuFavorito"
+    (click)="onClick()"
+    ></i>
+</h1>
+ 
+<h1>
+    <i class="glyphicon" [ngClass]="{
+        'glyphicon-folder-close': !meuFavorito,
+        'glyphicon-folder-open': meuFavorito
+    }"
+      (click)="onClick()"
+    ></i>
+</h1>
+
