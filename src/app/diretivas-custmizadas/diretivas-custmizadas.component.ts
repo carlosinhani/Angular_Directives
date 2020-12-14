@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-diretivas-custmizadas',
+  selector: 'diretivas-customizadas',
   templateUrl: './diretivas-custmizadas.component.html',
   styleUrls: ['./diretivas-custmizadas.component.css']
 })

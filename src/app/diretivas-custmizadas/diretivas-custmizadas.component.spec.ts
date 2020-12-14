@@ -2,7 +2,7 @@ import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { DiretivasCustmizadasComponent } from './diretivas-custmizadas.component';
 
-describe('DiretivasCustmizadasComponent', () => {
+describe('DiretivasCustomizadasComponent', () => {
   let component: DiretivasCustmizadasComponent;
   let fixture: ComponentFixture<DiretivasCustmizadasComponent>;
 
