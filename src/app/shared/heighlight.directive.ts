@@ -5,22 +5,22 @@ import { Directive, HostListener, HostBinding, Input } from '@angular/core';
   })
   export class HeighlightDirective {
   
-    @HostListener('mouseenter') onMouseOver(){
-        this.backgroundColor = this.highlightColor;
-    }
+    // @HostListener('mouseenter') onMouseOver(){
+    //     this.backgroundColor = this.highlightColor;
+    // }
   
-    @HostListener('mouseleave') onMouseLeave(){
-        this.backgroundColor = this.defaultColor;
-    }
+    // @HostListener('mouseleave') onMouseLeave(){
+    //     this.backgroundColor = this.defaultColor;
+    // }
   
-    @HostBinding('style.backgroundColor') backgroundColor: string;
+    // @HostBinding('style.backgroundColor') backgroundColor: string;
   
     @Input() defaultColor: string = 'white';
     @Input('highlight') highlightColor: string = 'yellow';
   
     constructor() { }
   
-    ngOnInit(){
-        this.backgroundColor = this.defaultColor;
-    }
+    // ngOnInit(){
+    //     this.backgroundColor = this.defaultColor;
+    // }
   }
