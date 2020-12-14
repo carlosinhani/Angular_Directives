@@ -1,0 +1,12 @@
+<p>Descrição: {{ tarefa.desc }} </p>
+
+
+<!-- <p>Responsável: {{ tarefa.responsavel.nome }} </p> 
+<-- Modo errado gera um erro quando objeto chamado for null  --> 
+
+<p>Responsável: {{ tarefa.responsavel != null ? tarefa.responsavel.nome : '' }} </p>
+<!-- Modo correto de chamar um objeto null -->
+
+<p>Responsável: {{ tarefa.responsavel?.nome }}
+
+<p>Responsável: {{ tarefa.responsavel?.usuario?.nome }}
